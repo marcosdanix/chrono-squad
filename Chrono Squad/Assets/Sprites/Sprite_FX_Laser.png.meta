@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 451a5596b9d1fdf478da70706fff0ce0
+timeCreated: 1510265619
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprite_FX_Laser_0
+    21300002: Sprite_FX_Laser_1
+    21300004: Sprite_FX_Laser_2
+    21300006: Sprite_FX_Laser_3
+    21300008: Sprite_FX_Laser_4
+    21300010: Sprite_FX_Laser_5
+    21300012: Sprite_FX_Laser_6
+    21300014: Sprite_FX_Laser_7
+    21300016: Sprite_FX_Laser_8
+    21300018: Sprite_FX_Laser_9
+    21300020: Sprite_FX_Laser_10
+    21300022: Sprite_FX_Laser_11
+    21300024: Sprite_FX_Laser_12
+    21300026: Sprite_FX_Laser_13
+    21300028: Sprite_FX_Laser_14
+    21300030: Sprite_FX_Laser_15
+    21300032: Sprite_FX_Laser_16
+    21300034: Sprite_FX_Laser_17
+    21300036: Sprite_FX_Laser_18
+    21300038: Sprite_FX_Laser_19
+    21300040: Sprite_FX_Laser_20
+    21300042: Sprite_FX_Laser_21
+    21300044: Sprite_FX_Laser_22
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 14
+        width: 94
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 14
+        width: 96
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 14
+        width: 96
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 14
+        width: 94
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_4
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 14
+        width: 94
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 16
+        width: 96
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_8
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 17
+        width: 100
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_11
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 17
+        width: 100
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_20
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 17
+        width: 80
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprite_FX_Laser_22
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 15
+        width: 100
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

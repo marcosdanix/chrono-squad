@@ -1,0 +1,5838 @@
+fileFormatVersion: 2
+guid: 6f7dcd668124bdb41b7290b291b83b57
+timeCreated: 1510523189
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: part1_boss_0
+    21300002: part1_boss_1
+    21300004: part1_boss_2
+    21300006: part1_boss_3
+    21300008: part1_boss_4
+    21300010: part1_boss_5
+    21300012: part1_boss_6
+    21300014: part1_boss_7
+    21300016: part1_boss_8
+    21300018: part1_boss_9
+    21300020: part1_boss_10
+    21300022: part1_boss_11
+    21300024: part1_boss_12
+    21300026: part1_boss_13
+    21300028: part1_boss_14
+    21300030: part1_boss_15
+    21300032: part1_boss_16
+    21300034: part1_boss_17
+    21300036: part1_boss_18
+    21300038: part1_boss_19
+    21300040: part1_boss_20
+    21300042: part1_boss_21
+    21300044: part1_boss_22
+    21300046: part1_boss_23
+    21300048: part1_boss_24
+    21300050: part1_boss_25
+    21300052: part1_boss_26
+    21300054: part1_boss_27
+    21300056: part1_boss_32
+    21300058: part1_boss_33
+    21300060: part1_boss_35
+    21300062: part1_boss_36
+    21300064: part1_boss_37
+    21300066: part1_boss_38
+    21300068: part1_boss_39
+    21300070: part1_boss_40
+    21300072: part1_boss_41
+    21300074: part1_boss_42
+    21300076: part1_boss_44
+    21300078: part1_boss_46
+    21300080: part1_boss_47
+    21300082: part1_boss_48
+    21300084: part1_boss_49
+    21300086: part1_boss_50
+    21300088: part1_boss_51
+    21300090: part1_boss_52
+    21300092: part1_boss_53
+    21300094: part1_boss_54
+    21300096: part1_boss_55
+    21300098: part1_boss_56
+    21300100: part1_boss_57
+    21300102: part1_boss_58
+    21300104: part1_boss_59
+    21300106: part1_boss_60
+    21300108: part1_boss_61
+    21300110: part1_boss_62
+    21300112: part1_boss_63
+    21300114: part1_boss_64
+    21300116: part1_boss_65
+    21300118: part1_boss_66
+    21300120: part1_boss_67
+    21300122: part1_boss_68
+    21300124: part1_boss_69
+    21300126: part1_boss_70
+    21300128: part1_boss_71
+    21300130: part1_boss_72
+    21300132: part1_boss_73
+    21300134: part1_boss_74
+    21300136: part1_boss_75
+    21300138: part1_boss_76
+    21300140: part1_boss_77
+    21300142: part1_boss_78
+    21300144: part1_boss_79
+    21300146: part1_boss_80
+    21300148: part1_boss_81
+    21300150: part1_boss_82
+    21300152: part1_boss_83
+    21300154: part1_boss_84
+    21300156: part1_boss_85
+    21300158: part1_boss_86
+    21300160: part1_boss_87
+    21300162: part1_boss_88
+    21300164: part1_boss_89
+    21300166: part1_boss_90
+    21300168: part1_boss_91
+    21300170: part1_boss_92
+    21300172: part1_boss_93
+    21300174: part1_boss_94
+    21300176: part1_boss_95
+    21300178: part1_boss_96
+    21300180: part1_boss_97
+    21300182: part1_boss_98
+    21300184: part1_boss_99
+    21300186: part1_boss_100
+    21300188: part1_boss_101
+    21300190: part1_boss_102
+    21300192: part1_boss_103
+    21300194: part1_boss_104
+    21300196: part1_boss_105
+    21300198: part1_boss_106
+    21300200: part1_boss_107
+    21300202: part1_boss_108
+    21300204: part1_boss_109
+    21300206: part1_boss_110
+    21300208: part1_boss_111
+    21300210: part1_boss_112
+    21300212: part1_boss_113
+    21300214: part1_boss_114
+    21300216: part1_boss_115
+    21300218: part1_boss_116
+    21300220: part1_boss_117
+    21300222: part1_boss_118
+    21300224: part1_boss_119
+    21300226: part1_boss_120
+    21300228: part1_boss_121
+    21300230: part1_boss_122
+    21300232: part1_boss_123
+    21300234: part1_boss_124
+    21300236: part1_boss_125
+    21300238: part1_boss_126
+    21300240: part1_boss_127
+    21300242: part1_boss_128
+    21300244: part1_boss_129
+    21300246: part1_boss_130
+    21300248: part1_boss_131
+    21300250: part1_boss_132
+    21300252: part1_boss_133
+    21300254: part1_boss_134
+    21300256: part1_boss_135
+    21300258: part1_boss_136
+    21300260: part1_boss_137
+    21300262: part1_boss_138
+    21300264: part1_boss_139
+    21300266: part1_boss_140
+    21300268: part1_boss_141
+    21300270: part1_boss_142
+    21300272: part1_boss_143
+    21300274: part1_boss_144
+    21300276: part1_boss_145
+    21300278: part1_boss_146
+    21300280: part1_boss_147
+    21300282: part1_boss_148
+    21300284: part1_boss_149
+    21300286: part1_boss_150
+    21300288: part1_boss_151
+    21300290: part1_boss_152
+    21300292: part1_boss_153
+    21300294: part1_boss_154
+    21300296: part1_boss_155
+    21300298: part1_boss_156
+    21300300: part1_boss_157
+    21300302: part1_boss_158
+    21300304: part1_boss_159
+    21300306: part1_boss_160
+    21300308: part1_boss_161
+    21300310: part1_boss_162
+    21300312: part1_boss_163
+    21300314: part1_boss_164
+    21300316: part1_boss_165
+    21300318: part1_boss_166
+    21300320: part1_boss_167
+    21300322: part1_boss_168
+    21300324: part1_boss_169
+    21300326: part1_boss_170
+    21300328: part1_boss_171
+    21300330: part1_boss_172
+    21300332: part1_boss_173
+    21300334: part1_boss_174
+    21300336: part1_boss_175
+    21300338: part1_boss_176
+    21300340: part1_boss_177
+    21300342: part1_boss_178
+    21300344: part1_boss_179
+    21300346: part1_boss_180
+    21300348: part1_boss_181
+    21300350: part1_boss_182
+    21300352: part1_boss_183
+    21300354: part1_boss_184
+    21300356: part1_boss_185
+    21300358: part1_boss_186
+    21300360: part1_boss_187
+    21300362: part1_boss_188
+    21300364: part1_boss_189
+    21300366: part1_boss_190
+    21300368: part1_boss_191
+    21300370: part1_boss_192
+    21300372: part1_boss_193
+    21300374: part1_boss_194
+    21300376: part1_boss_195
+    21300378: part1_boss_196
+    21300380: part1_boss_197
+    21300382: part1_boss_198
+    21300384: part1_boss_199
+    21300386: part1_boss_200
+    21300388: part1_boss_201
+    21300390: part1_boss_202
+    21300392: part1_boss_203
+    21300394: part1_boss_204
+    21300396: part1_boss_205
+    21300398: part1_boss_206
+    21300400: part1_boss_207
+    21300402: part1_boss_208
+    21300404: part1_boss_209
+    21300406: part1_boss_210
+    21300408: part1_boss_211
+    21300410: part1_boss_212
+    21300412: part1_boss_213
+    21300414: part1_boss_214
+    21300416: part1_boss_215
+    21300418: part1_boss_216
+    21300420: part1_boss_217
+    21300422: part1_boss_218
+    21300424: part1_boss_219
+    21300426: part1_boss_220
+    21300428: part1_boss_221
+    21300430: part1_boss_222
+    21300432: part1_boss_223
+    21300434: part1_boss_224
+    21300436: part1_boss_225
+    21300438: part1_boss_226
+    21300440: part1_boss_227
+    21300442: part1_boss_228
+    21300444: part1_boss_229
+    21300446: part1_boss_230
+    21300448: part1_boss_231
+    21300450: part1_boss_232
+    21300452: part1_boss_233
+    21300454: part1_boss_234
+    21300456: part1_boss_235
+    21300458: part1_boss_236
+    21300460: part1_boss_237
+    21300462: part1_boss_238
+    21300464: part1_boss_239
+    21300466: part1_boss_240
+    21300468: part1_boss_241
+    21300470: part1_boss_242
+    21300472: part1_boss_243
+    21300474: part1_boss_244
+    21300476: part1_boss_245
+    21300478: part1_boss_246
+    21300480: part1_boss_247
+    21300482: part1_boss_248
+    21300484: part1_boss_249
+    21300486: part1_boss_250
+    21300488: part1_boss_251
+    21300490: part1_boss_252
+    21300492: part1_boss_253
+    21300494: part1_boss_254
+    21300496: part1_boss_255
+    21300498: part1_boss_256
+    21300500: part1_boss_257
+    21300502: part1_boss_258
+    21300504: part1_boss_259
+    21300506: part1_boss_260
+    21300508: part1_boss_261
+    21300510: part1_boss_262
+    21300512: part1_boss_263
+    21300514: part1_boss_264
+    21300516: part1_boss_265
+    21300518: part1_boss_266
+    21300520: part1_boss_267
+    21300522: part1_boss_268
+    21300524: part1_boss_269
+    21300526: part1_boss_270
+    21300528: part1_boss_271
+    21300530: part1_boss_272
+    21300532: part1_boss_273
+    21300534: part1_boss_274
+    21300536: part1_boss_275
+    21300538: part1_boss_276
+    21300540: part1_boss_277
+    21300542: part1_boss_278
+    21300544: part1_boss_279
+    21300546: part1_boss_280
+    21300548: part1_boss_281
+    21300550: part1_boss_282
+    21300552: part1_boss_283
+    21300554: part1_boss_284
+    21300556: part1_boss_285
+    21300558: part1_boss_286
+    21300560: part1_boss_287
+    21300562: part1_boss_288
+    21300564: part1_boss_289
+    21300566: part1_boss_290
+    21300568: part1_boss_291
+    21300570: part1_boss_292
+    21300572: part1_boss_293
+    21300574: part1_boss_294
+    21300576: part1_boss_295
+    21300578: part1_boss_296
+    21300580: part1_boss_297
+    21300582: part1_boss_298
+    21300584: part1_boss_299
+    21300586: part1_boss_300
+    21300588: part1_boss_301
+    21300590: part1_boss_302
+    21300592: part1_boss_303
+    21300594: part1_boss_304
+    21300596: part1_boss_305
+    21300598: part1_boss_306
+    21300600: part1_boss_307
+    21300602: part1_boss_308
+    21300604: part1_boss_309
+    21300606: part1_boss_310
+    21300608: part1_boss_311
+    21300610: part1_boss_312
+    21300612: part1_boss_313
+    21300614: part1_boss_314
+    21300616: part1_boss_315
+    21300618: part1_boss_316
+    21300620: part1_boss_317
+    21300622: part1_boss_318
+    21300624: part1_boss_319
+    21300626: part1_boss_320
+    21300628: part1_boss_321
+    21300630: part1_boss_322
+    21300632: part1_boss_323
+    21300634: part1_boss_324
+    21300636: part1_boss_325
+    21300638: part1_boss_326
+    21300640: part1_boss_327
+    21300642: part1_boss_328
+    21300644: part1_boss_329
+    21300646: part1_boss_330
+    21300648: part1_boss_331
+    21300650: part1_boss_332
+    21300652: part1_boss_333
+    21300654: part1_boss_334
+    21300656: part1_boss_335
+    21300658: part1_boss_336
+    21300660: part1_boss_337
+    21300662: part1_boss_338
+    21300664: part1_boss_339
+    21300666: part1_boss_340
+    21300668: part1_boss_341
+    21300670: part1_boss_342
+    21300672: part1_boss_343
+    21300674: part1_boss_344
+    21300676: part1_boss_345
+    21300678: part1_boss_346
+    21300680: part1_boss_347
+    21300682: part1_boss_348
+    21300684: part1_boss_349
+    21300686: part1_boss_350
+    21300688: part1_boss_351
+    21300690: part1_boss_352
+    21300692: part1_boss_353
+    21300694: part1_boss_354
+    21300696: part1_boss_355
+    21300698: part1_boss_356
+    21300700: part1_boss_357
+    21300702: part1_boss_358
+    21300704: part1_boss_359
+    21300706: part1_boss_360
+    21300708: part1_boss_361
+    21300710: part1_boss_362
+    21300712: part1_boss_363
+    21300714: part1_boss_364
+    21300716: part1_boss_365
+    21300718: part1_boss_366
+    21300720: part1_boss_367
+    21300722: part1_boss_368
+    21300724: part1_boss_369
+    21300726: part1_boss_370
+    21300728: part1_boss_371
+    21300730: part1_boss_372
+    21300732: part1_boss_373
+    21300734: part1_boss_374
+    21300736: part1_boss_375
+    21300738: part1_boss_376
+    21300740: part1_boss_377
+    21300742: part1_boss_378
+    21300744: part1_boss_379
+    21300746: part1_boss_380
+    21300748: part1_boss_381
+    21300750: part1_boss_382
+    21300752: part1_boss_383
+    21300754: part1_boss_384
+    21300756: part1_boss_385
+    21300758: part1_boss_386
+    21300760: part1_boss_387
+    21300762: part1_boss_388
+    21300764: part1_boss_389
+    21300766: part1_boss_390
+    21300768: part1_boss_391
+    21300770: part1_boss_392
+    21300772: part1_boss_393
+    21300774: part1_boss_394
+    21300776: part1_boss_395
+    21300778: part1_boss_396
+    21300780: part1_boss_397
+    21300782: part1_boss_398
+    21300784: part1_boss_399
+    21300786: part1_boss_400
+    21300788: part1_boss_401
+    21300790: part1_boss_402
+    21300792: part1_boss_403
+    21300794: part1_boss_404
+    21300796: part1_boss_405
+    21300798: part1_boss_406
+    21300800: part1_boss_407
+    21300802: part1_boss_408
+    21300804: part1_boss_409
+    21300806: part1_boss_410
+    21300808: part1_boss_411
+    21300810: part1_boss_412
+    21300812: part1_boss_413
+    21300814: part1_boss_414
+    21300816: part1_boss_415
+    21300818: part1_boss_416
+    21300820: part1_boss_417
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 32
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 7
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: part1_boss_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1142
+        width: 216
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1129
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1129
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1129
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1072
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1071
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1072
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1072
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_9
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_12
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1129
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_13
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_14
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_15
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1129
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1129
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_17
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1129
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_19
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_20
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1062
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_22
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_23
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_24
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_25
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1129
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_26
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_27
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1129
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_32
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1062
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_33
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1062
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_35
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1105
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_36
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1105
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_37
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1105
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_38
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1105
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_39
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1105
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_40
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1105
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_41
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1105
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_42
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1105
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_44
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1105
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 914
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_47
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 913
+        width: 135
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 913
+        width: 134
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_49
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 914
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 905
+        width: 132
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_51
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 905
+        width: 132
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 905
+        width: 133
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 892
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_54
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 892
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_55
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 892
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_56
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 892
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_57
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 892
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_58
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 892
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_59
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 892
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 892
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_61
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 835
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_62
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 834
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_63
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 835
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_64
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 835
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_65
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 746
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_66
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 745
+        width: 135
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_67
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 745
+        width: 134
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_68
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 746
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 732
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_71
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_72
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_73
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 732
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_74
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_75
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 675
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_77
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 676
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_78
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 676
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_79
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 586
+        width: 136
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_80
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 587
+        width: 136
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_81
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 588
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_82
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_83
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 732
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_84
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_85
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 732
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_86
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_87
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_88
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 732
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_89
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 732
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_90
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 732
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_91
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 732
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_92
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 732
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_93
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 732
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_94
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 573
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_95
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 573
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_96
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 573
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 573
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_98
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 573
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_99
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 573
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_100
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 573
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_101
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 542
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_102
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 542
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 543
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_104
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 543
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 544
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_106
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 539
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 527
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_108
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 528
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_109
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 529
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_110
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 529
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_111
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 530
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_113
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_114
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_115
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 514
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_116
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 514
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_117
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 514
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_118
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 514
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_119
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_120
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 514
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_121
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_122
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 460
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_123
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_124
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_125
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_126
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 514
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_127
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 460
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_128
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 460
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_129
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 460
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_130
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 457
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_131
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 452
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_132
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 450
+        width: 71
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_133
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 448
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_134
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 450
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_135
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 453
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_136
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 453
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_137
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 472
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_138
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 478
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_139
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 472
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_140
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 459
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_141
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 466
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_142
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 459
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_143
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 453
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_144
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 432
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_145
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 424
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_146
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 415
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_147
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 411
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_148
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 405
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_149
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 404
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_150
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 404
+        width: 75
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_151
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 406
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_152
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 406
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_153
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 406
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_154
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 407
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_155
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 405
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_156
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 405
+        width: 81
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_157
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 405
+        width: 84
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_158
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 405
+        width: 84
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 363
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_160
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 363
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_161
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 364
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 364
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_163
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 364
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_164
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 364
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_165
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 364
+        width: 82
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_166
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 364
+        width: 83
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_167
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 366
+        width: 82
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_168
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 366
+        width: 81
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_169
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 367
+        width: 83
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_170
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 367
+        width: 83
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_171
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 314
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_172
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 314
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_173
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 313
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_174
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 323
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_175
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 323
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_176
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 325
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_177
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 351
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_178
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 351
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_179
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 351
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_180
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 351
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_181
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 351
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_182
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 351
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_183
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 351
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_184
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 339
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_185
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 339
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_186
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 339
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_187
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 339
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_188
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 339
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_189
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 339
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_190
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 339
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_191
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 339
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_192
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 339
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_193
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 339
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_194
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 339
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_195
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 339
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_196
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 339
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_197
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 339
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_198
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 339
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_199
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 339
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_200
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 321
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_201
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 339
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_202
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 339
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_203
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 339
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_204
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 339
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_205
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 339
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_206
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 339
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_207
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 339
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_208
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 339
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_209
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 339
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_210
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 339
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_211
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 338
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_212
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 345
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_213
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 339
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_214
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 339
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_215
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 339
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_216
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 339
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_217
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 339
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_218
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 339
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_219
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 305
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_220
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 305
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_221
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 305
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_222
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 305
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_223
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 305
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_224
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 305
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_225
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 309
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_226
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 309
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_227
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 309
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_228
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 310
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_229
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 311
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_230
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 311
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_231
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 312
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_232
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 313
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_233
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 316
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_234
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 317
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_235
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 316
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_236
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 316
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_237
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_238
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 292
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_239
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 292
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_240
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 292
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_241
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_242
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 292
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_243
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 292
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_244
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_245
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_246
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_247
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_248
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_249
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_250
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_251
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_252
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_253
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_254
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_255
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_256
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_257
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_258
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_259
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_260
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_261
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_262
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_263
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_264
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_265
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_266
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_267
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_268
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_269
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_270
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_271
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_272
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_273
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_274
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_275
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 267
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_276
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_277
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 245
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_278
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 257
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_279
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 257
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_280
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 257
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_281
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 257
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_282
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 257
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_283
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 257
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_284
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 245
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_285
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_286
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 245
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_287
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 256
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_288
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 256
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_289
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 256
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_290
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 242
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_291
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 242
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_292
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 241
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_293
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 241
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_294
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 241
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_295
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 241
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_296
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 241
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_297
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 242
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_298
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 241
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_299
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 243
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_300
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 244
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_301
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 244
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_302
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 246
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_303
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 244
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_304
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 243
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_305
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 242
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_306
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 242
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_307
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 242
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_308
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 241
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_309
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 241
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_310
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 241
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_311
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 241
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_312
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 241
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_313
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 242
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_314
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 241
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_315
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 243
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_316
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 244
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_317
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 244
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_318
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 246
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_319
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 245
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_320
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 244
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_321
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 243
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_322
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_323
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_324
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_325
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 245
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_326
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_327
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 245
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_328
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 245
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_329
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_330
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_331
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 245
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_332
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 245
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_333
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_334
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 245
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_335
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 245
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_336
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 245
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_337
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 228
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_338
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 228
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_339
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 228
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_340
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 228
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_341
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 183
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_342
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 189
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_343
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 193
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_344
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 197
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_345
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 199
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_346
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 197
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_347
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 193
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_348
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 188
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_349
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 181
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_350
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 182
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_351
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 181
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_352
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 188
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_353
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 193
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_354
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 197
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_355
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 198
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_356
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 197
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_357
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 193
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_358
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 189
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_359
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 183
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_360
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 125
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_361
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_362
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 111
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_363
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 111
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_364
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_365
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 111
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_366
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 111
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_367
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 111
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_368
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 111
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_369
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 111
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_370
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 77
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_371
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 71
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_372
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 67
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_373
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 77
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_374
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 89
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_375
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 89
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_376
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 89
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_377
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 89
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_378
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 89
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_379
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 89
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_380
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 89
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_381
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 85
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_382
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 79
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_383
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 75
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_384
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 75
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_385
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 75
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_386
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 75
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_387
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 79
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_388
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_389
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 26
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_390
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 24
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_391
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 26
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_392
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 26
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_393
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 21
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_394
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 15
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_395
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 8
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_396
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_397
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 3
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_398
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 7
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_399
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 9
+        width: 76
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_400
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 10
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_401
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 9
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_402
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 9
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_403
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 58
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_404
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 58
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_405
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 58
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_406
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 58
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_407
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 58
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_408
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_409
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 58
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_410
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 58
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_411
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 58
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_412
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 47
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_413
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 47
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_414
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 47
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_415
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 47
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_416
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: part1_boss_417
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 33
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
