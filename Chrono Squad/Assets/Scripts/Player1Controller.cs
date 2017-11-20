@@ -27,16 +27,20 @@ public class Player1Controller : MonoBehaviour {
     Vector2 offset;
     Vector2 current_dir= Vector2.zero;
     int rotation;
-    Quaternion rotation_vec = Quaternion.identity;
+    public Quaternion rotation_vec = Quaternion.identity;
 
 	// Use this for initialization
 	void Start () {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
-        anim = gameObject.GetComponent<Animator>();
+        anim = gameObject.GetComponentInChildren<Animator>();
 	}
 
     void Update ()
     {
+        if (Time.timeScale == 0) {
+            return;
+        }
+
         offset = new Vector2(1.0f,1.0f);
         current_dir = Vector2.zero;
 
@@ -178,8 +182,17 @@ public class Player1Controller : MonoBehaviour {
         }
 
     }
-
     public void deathTrigger(){
-        
+            if (Time.timeScale == 0) {
+            return;
+        }
+        anim.SetBool("dead", true);
+        gameObject.GetComponent<PauseTime>().SlowDown();
     }
+
+    public void reviveTrigger(){
+        anim.SetBool("dead", false);
+
+    }
+
 }

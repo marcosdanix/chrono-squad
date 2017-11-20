@@ -4,30 +4,34 @@ using System.Collections;
 using System.Collections.Generic;
 public class ChronoBreak : MonoBehaviour
 {
+    List<PointInTime> playerPosition;
+
     List<Vector3> positionVal = new List<Vector3>();
-    List<Vector3> rewindVal = new List<Vector3>();
+
+    List<PointInTime> rewindPositions = new List<PointInTime>();
 
     List<Vector3> rotationRewind = new List<Vector3>();
     List<Vector3> rotationVal = new List<Vector3>();
+
+
     int indexVal;
     float counter;
     bool isRewinding;
     int timeLimitInSeconds =10;
     private MainTimeController timeController;
     public PlayerAnimation playerAnim;
-
+    public Player1Controller playerController;
     public GameObject ghostObject;
 
     void Start()
     {
         timeController = gameObject.GetComponent<MainTimeController>();
         playerAnim = gameObject.GetComponentInChildren<PlayerAnimation> ();
+        playerController = gameObject.GetComponent<Player1Controller>();
+        playerPosition = new List<PointInTime>();
     }
     void Update()
     {
-        if (Time.timeScale == 0) {
-            return;
-        }
         //we use a counter variable to limit the rewind mechanic usage to 10 seconds
         if(Input.GetKey(KeyCode.E))
         {
@@ -49,8 +53,8 @@ public class ChronoBreak : MonoBehaviour
             {
                 ghostObject = Instantiate(ghostObject,transform.position, Quaternion.identity);
                 GhostReplay script = ghostObject.GetComponent(typeof(GhostReplay)) as GhostReplay;
-                script.Populate(rewindVal,rotationRewind);
-                rewindVal = new List<Vector3>();
+                script.Populate(rewindPositions);
+                rewindPositions = new List<PointInTime>();
             }
 
             if(counter<timeLimitInSeconds)
@@ -66,8 +70,11 @@ public class ChronoBreak : MonoBehaviour
             if (Time.timeScale == 0) {
                 return;
             }
-            positionVal.Add (transform.position);
-            rotationVal.Add (transform.localScale);
+            playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,playerController.grounded));
+
+
+//            positionVal.Add (transform.position);
+//            rotationVal.Add (transform.localScale);
 
             //timeController.addPlayerMovement(gameObject,positionVal);
 
@@ -86,12 +93,17 @@ public class ChronoBreak : MonoBehaviour
 
             //get last data of this gameobject and apply it to the gameobject
             //remove the used data thereby decreasing the list size
-            rewindVal.Add(positionVal[indexVal - 1]);
-            transform.position = positionVal[indexVal - 1];
-            positionVal.RemoveAt(indexVal - 1);
-            rotationRewind.Add(rotationVal[indexVal - 1]);
-            transform.localScale = rotationVal[indexVal - 1];
-            rotationVal.RemoveAt(indexVal - 1);
+            PointInTime pointInTime = playerPosition[0];
+            rewindPositions.Insert(0,pointInTime);
+            transform.position = pointInTime.position;
+            transform.localScale = pointInTime.rotation;
+            playerPosition.RemoveAt(0);
+//            rewindVal.Add(positionVal[indexVal - 1]);
+//            transform.position = positionVal[indexVal - 1];
+//            positionVal.RemoveAt(indexVal - 1);
+//            rotationRewind.Add(rotationVal[indexVal - 1]);
+//            transform.localScale = rotationVal[indexVal - 1];
+//            rotationVal.RemoveAt(indexVal - 1);
         }
         indexVal--;
 

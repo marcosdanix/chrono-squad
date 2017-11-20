@@ -4,39 +4,44 @@ using UnityEngine;
 
 public class GhostReplay : MonoBehaviour {
 
-    List<Vector3> positionList = new List<Vector3>();
-    List<Vector3> rotationList = new List<Vector3>();
-    int maxIndexVal = 0;
+//    List<Vector3> positionList = new List<Vector3>();
+//    List<Vector3> rotationList = new List<Vector3>();
 
+    List<PointInTime> ghostPosition = new List<PointInTime>();
+    int maxIndexVal = 0;
+    int currentIndex = 0;
 	// Use this for initialization
 	void Start () {
 		
 	}
 
-    public void Populate(List<Vector3> positionVal, List<Vector3> rotationVal)
+    public void Populate(List<PointInTime> positionVal)
     {
-        positionList = positionVal;
-        rotationList = rotationVal;
+        ghostPosition = positionVal;
         maxIndexVal = positionVal.Count;
+        currentIndex = 0;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (maxIndexVal>0)
+        if (Time.timeScale == 0) {
+            return;
+        }
+        if (maxIndexVal > currentIndex)
         {
             //decrease index
 
             //get last data of this gameobject and apply it to the gameobject
             //remove the used data thereby decreasing the list size
-            if (positionList[maxIndexVal - 1] != Vector3.zero && !gameObject.GetComponentInChildren<SpriteRenderer>().enabled)
+            if (ghostPosition[currentIndex].position != Vector3.zero && !gameObject.GetComponentInChildren<SpriteRenderer>().enabled)
             {
                 gameObject.GetComponentInChildren<SpriteRenderer>().enabled = true;
             }
-            transform.position = positionList[maxIndexVal - 1];
-//            transform.localScale = rotationList[maxIndexVal - 1];
+            transform.position = ghostPosition[currentIndex].position;
+            transform.localScale = ghostPosition[currentIndex].rotation;
 
             //transform.eulerAngles = rotationVal[indexVal];
-            maxIndexVal--;
+            currentIndex++;
         }
 
 	}

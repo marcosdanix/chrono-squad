@@ -18,7 +18,6 @@ public class BulletController : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D col){
-        Debug.Log(col.gameObject.tag);
         if (col.gameObject.tag == "MainCamera")
         {
             rb.velocity = Vector2.zero;
@@ -26,8 +25,13 @@ public class BulletController : MonoBehaviour {
         }
         if (col.gameObject.tag == "Enemy")
         {
-            rb.velocity = Vector2.zero;
+            //rb.velocity = Vector2.zero;
             col.gameObject.GetComponent<EnemyController>().Attacked(power);
+        }
+        if (col.gameObject.tag == "Boss")
+        {
+           // rb.velocity = Vector2.zero;
+            col.gameObject.GetComponentInParent<BossController>().Attacked(power);
         }
     }
 }

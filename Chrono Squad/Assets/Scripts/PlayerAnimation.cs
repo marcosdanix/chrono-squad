@@ -76,4 +76,7 @@ public class PlayerAnimation : MonoBehaviour {
         anim.SetInteger("Rotation", rotation);
 
 	}
+    public void AnimationEvent(){
+        gameObject.GetComponentInParent<PauseTime>().Pause();
+    }
 }
