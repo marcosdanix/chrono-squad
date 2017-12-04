@@ -14,7 +14,7 @@ public class LaserController : MonoBehaviour {
 	}
 
     void OnTriggerEnter2D(Collider2D col){
-        Debug.Log(col.gameObject.tag);
+        //Debug.Log(col.gameObject.tag);
         if (col.gameObject.tag == "Player")
         {
             col.gameObject.GetComponent<Player1Controller>().deathTrigger();

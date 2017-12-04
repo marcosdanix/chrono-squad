@@ -51,10 +51,13 @@ public class ChronoBreak : MonoBehaviour
             
             if (Input.GetKeyUp(KeyCode.E))
             {
-                ghostObject = Instantiate(ghostObject,transform.position, Quaternion.identity);
-                GhostReplay script = ghostObject.GetComponent(typeof(GhostReplay)) as GhostReplay;
-                script.Populate(rewindPositions);
-                rewindPositions = new List<PointInTime>();
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+               Restart();    
+
             }
 
             if(counter<timeLimitInSeconds)
@@ -107,5 +110,13 @@ public class ChronoBreak : MonoBehaviour
         }
         indexVal--;
 
+    }
+
+    void Restart(){
+        ghostObject = Instantiate(ghostObject,transform.position, Quaternion.identity);
+        RewindThis script = ghostObject.GetComponent(typeof(RewindThis)) as RewindThis;
+        script.Populate(rewindPositions);
+        rewindPositions = new List<PointInTime>();
+        gameObject.GetComponent<PauseTime>().Pause();
     }
 }

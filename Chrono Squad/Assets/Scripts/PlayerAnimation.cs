@@ -29,6 +29,7 @@ public class PlayerAnimation : MonoBehaviour {
         anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")));
         anim.SetFloat("rewind", rewind);
 
+
         if (Input.GetAxis("Horizontal") < -0.1f)
         {
             current_dir += Vector2.left;
@@ -77,6 +78,30 @@ public class PlayerAnimation : MonoBehaviour {
 
 	}
     public void AnimationEvent(){
-        gameObject.GetComponentInParent<PauseTime>().Pause();
+        if (rewind == 1.0f)
+        {
+            gameObject.GetComponentInParent<PauseTime>().Pause();
+        }
+        else
+        {
+            gameObject.GetComponentInParent<PauseTime>().SlowDown();
+        }
     }
+
+    public void AnimationEvent2(){
+        if (rewind == -1.0f)
+        {
+            anim.SetBool("rewindEnd", true);
+            gameObject.GetComponentInParent<PauseTime>().SlowDown();
+
+        }
+    }
+    public void AnimationEvent3(){
+        if (rewind == -1.0f)
+        {
+            anim.SetBool("rewindEnd", false);
+            gameObject.GetComponentInParent<Player1Controller>().reviveTrigger();
+        }
+    }
+
 }

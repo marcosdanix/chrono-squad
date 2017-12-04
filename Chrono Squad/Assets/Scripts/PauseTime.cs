@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PauseTime : MonoBehaviour {
     public bool paused;
+    int rewindcounter;
     // Use this for initialization
     void Start () {
         paused = false;
@@ -17,15 +18,18 @@ public class PauseTime : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.E))
         {
-            if (Time.timeScale == 0)
+            if (rewindcounter == 10)
             {
-                gameObject.gameObject.GetComponent<Player1Controller>().reviveTrigger();
+                SpeedUp();
             }
-            Time.timeScale = 1; 
+            rewindcounter++;
+
+            //Time.timeScale = 1; 
         }
 
         if (Input.GetKeyUp(KeyCode.E))
         {
+            rewindcounter = 0;
             Time.timeScale = 0;
         }
 
@@ -53,7 +57,11 @@ public class PauseTime : MonoBehaviour {
         Time.timeScale = 0.2f;
     }
 
-    public void Rewind(){
+    public void Normal(){
         Time.timeScale = 1;
+    }
+
+    public void SpeedUp(){
+        //Time.timeScale = 2;
     }
 }

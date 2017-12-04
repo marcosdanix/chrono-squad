@@ -182,8 +182,12 @@ public class Player1Controller : MonoBehaviour {
         }
 
     }
+
+    public void DoubleUp(){
+        
+    }
     public void deathTrigger(){
-            if (Time.timeScale == 0) {
+        if (Time.timeScale == 0) {
             return;
         }
         anim.SetBool("dead", true);
@@ -192,7 +196,14 @@ public class Player1Controller : MonoBehaviour {
 
     public void reviveTrigger(){
         anim.SetBool("dead", false);
-
+        gameObject.GetComponent<PauseTime>().Normal();
     }
 
+    void OnTriggerEnter2D(Collider2D col){
+        //Debug.Log(col.gameObject.tag);
+        if (col.gameObject.tag == "EnemyBullet")
+        {
+            deathTrigger();
+        }
+    }
 }

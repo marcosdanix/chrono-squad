@@ -17,16 +17,11 @@ public class EnemyBulletController : MonoBehaviour {
     }
 
     void OnTriggerEnter2D(Collider2D col){
-        Debug.Log(col.gameObject.tag);
-        if (col.gameObject.tag == "MainCamera")
-        {
-            rb.velocity = Vector2.zero;
-            //gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
-        }
+
         if (col.gameObject.tag == "Player")
         {
             rb.velocity = Vector2.zero;
-            col.gameObject.GetComponent<Player1Controller>().deathTrigger();
+            //col.gameObject.GetComponent<Player1Controller>().deathTrigger();
         }
 
 //        if(col.gameObject.tag == "GhostPlayer")
@@ -36,5 +31,13 @@ public class EnemyBulletController : MonoBehaviour {
 //        }
 
 
+    }
+
+    void OnTriggerExit2D(Collider2D col){
+        if (col.gameObject.tag == "EnemyRange")
+        {
+            rb.velocity = Vector2.zero;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 }

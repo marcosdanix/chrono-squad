@@ -19,18 +19,43 @@ public class RewindThis : MonoBehaviour
     private MainTimeController timeController;
     public PlayerAnimation playerAnim;
     public Player1Controller playerController;
+    PointInTime pointInTime;
+    PointInTime lastPoinInTime;
 
     public GameObject ghostObject;
 
-    void Start()
-    {
-        timeController = gameObject.GetComponent<MainTimeController>();
+    Animator anim;
+
+    List<PointInTime> ghostPosition = new List<PointInTime>();
+    int maxIndexVal = 0;
+    int currentIndex = 0;
+
+    // Use this for initialization
+    void Start () {
+        //timeController = gameObject.GetComponent<MainTimeController>();
         playerAnim = gameObject.GetComponentInChildren<PlayerAnimation> ();
         playerController = gameObject.GetComponent<Player1Controller>();
         playerPosition = new List<PointInTime>();
+        try{
+            anim = gameObject.GetComponentInChildren<Animator> ();    
+        }
+        catch{
+        }
+
+
     }
+
+    public void Populate(List<PointInTime> positionVal)
+    {
+        ghostPosition = positionVal;
+        maxIndexVal = positionVal.Count;
+        currentIndex = 0;
+    }
+
+    // Update is called once per frame
     void Update()
     {
+           
         //we use a counter variable to limit the rewind mechanic usage to 10 seconds
         if(Input.GetKey(KeyCode.E))
         {
@@ -51,9 +76,9 @@ public class RewindThis : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.E))
             {
                 //ghostObject = Instantiate(ghostObject,transform.position, Quaternion.identity);
-                gameObject.GetComponent<GhostReplay>().Populate(rewindPositions);
+                Populate(rewindPositions);
 
-                rewindPositions = new List<PointInTime>();
+                //rewindPositions = new List<PointInTime>();
             }
 
             if(counter<timeLimitInSeconds)
@@ -68,6 +93,32 @@ public class RewindThis : MonoBehaviour
         if (!isRewinding) {
             if (Time.timeScale == 0) {
                 return;
+            }
+            if (maxIndexVal > currentIndex)
+            {
+                //decrease index
+
+                //get last data of this gameobject and apply it to the gameobject
+                //remove the used data thereby decreasing the list size
+                if (lastPoinInTime != null && lastPoinInTime.position != ghostPosition[currentIndex].position)
+                {
+                    if (anim != null)
+                    {
+                        anim.SetBool("stop", false);
+                    }
+                }
+                transform.position = ghostPosition[currentIndex].position;
+                transform.localScale = ghostPosition[currentIndex].rotation;
+                //transform.eulerAngles = rotationVal[indexVal];
+                currentIndex++;
+            }
+            else
+            {
+                if (gameObject.tag == "GhostPlayer")
+                {
+                    gameObject.GetComponentInChildren<GhostContoller>().Saved();
+
+                }
             }
             playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,true));
 //            positionVal.Add (transform.position);
@@ -92,7 +143,8 @@ public class RewindThis : MonoBehaviour
             //get last data of this gameobject and apply it to the gameobject
             //remove the used data thereby decreasing the list size
 
-            PointInTime pointInTime = playerPosition[0];
+            pointInTime = playerPosition[0];
+            lastPoinInTime = pointInTime;
             rewindPositions.Insert(0, pointInTime);
             transform.position = pointInTime.position;
             transform.localScale = pointInTime.rotation;
@@ -106,8 +158,12 @@ public class RewindThis : MonoBehaviour
         }
         else
         {
-            gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
-            rewindPositions.Insert(0, new PointInTime(Vector3.zero, Vector3.zero, true));
+            
+            if (anim != null)
+            {
+                anim.SetBool("stop", true);
+            }
+            rewindPositions.Insert(0, lastPoinInTime);
             //rewind.Add(Vector3.zero);
             //rotationVal.Add(Vector3.zero);
         }
