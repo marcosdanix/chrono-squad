@@ -13,8 +13,8 @@ public class EnemyController : MonoBehaviour {
     float nextFire = 0;
     float fireRate = 0.1f;
     float fireBreak = 2;
-    float awakeBreak = 3.5f;
-    float deathBreak = 3.5f;
+    float awakeBreak = 2f;
+    float deathBreak = 2f;
 
     int counter = 0;
     int[] offsety = new int[11] {0,1,0,1,0,1,0,1,0,1,0};
@@ -36,7 +36,7 @@ public class EnemyController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (hp <= 0)
+        if (hp <= 0 && awake)
         {
             dead = true;
             anim.SetBool("Dead", true);
@@ -44,16 +44,16 @@ public class EnemyController : MonoBehaviour {
         }
         float distance = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distance < 60 && !awake)
+        if (distance < 50 && !awake)
         {
             anim.SetBool("Awake", true);
             Awake();
         }
-        if (distance < 40 && awake)
+        if (distance < 30 && awake && !dead)
         {
             MachineGun();
         }
-        else if (shooting == true && awake)
+        else if (shooting == true && awake && !dead)
         {
             MachineGun();
         }
