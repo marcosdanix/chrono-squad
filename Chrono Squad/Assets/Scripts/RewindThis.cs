@@ -36,6 +36,7 @@ public class RewindThis : MonoBehaviour
         playerAnim = gameObject.GetComponentInChildren<PlayerAnimation> ();
         playerController = gameObject.GetComponent<Player1Controller>();
         playerPosition = new List<PointInTime>();
+        playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,true,false));
         try{
             anim = gameObject.GetComponentInChildren<Animator> ();    
         }
@@ -76,11 +77,16 @@ public class RewindThis : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.E))
             {
                 //ghostObject = Instantiate(ghostObject,transform.position, Quaternion.identity);
-                Populate(rewindPositions);
 
-                //rewindPositions = new List<PointInTime>();
             }
 
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Populate(rewindPositions);
+
+                rewindPositions = new List<PointInTime>();
+            }
+           
             if(counter<timeLimitInSeconds)
             {
                 counter+=Time.deltaTime;
@@ -94,38 +100,52 @@ public class RewindThis : MonoBehaviour
             if (Time.timeScale == 0) {
                 return;
             }
-            if (maxIndexVal > currentIndex)
+            if (maxIndexVal > 0)
             {
-                //decrease index
-
-                //get last data of this gameobject and apply it to the gameobject
-                //remove the used data thereby decreasing the list size
-                if (lastPoinInTime != null && lastPoinInTime.position != ghostPosition[currentIndex].position)
+                if (maxIndexVal > currentIndex)
                 {
-                    if (anim != null)
+                    //decrease index
+
+                    //get last data of this gameobject and apply it to the gameobject
+                    //remove the used data thereby decreasing the list size
+                    if (lastPoinInTime != null && !lastPoinInTime.position.Equals(ghostPosition[currentIndex].position))
                     {
-                        anim.SetBool("stop", false);
+                        if (anim != null)
+                        {
+                            anim.SetBool("stop", false);
+                            lastPoinInTime = null;
+                        }
+                    }
+                    transform.position = ghostPosition[currentIndex].position;
+                    transform.localScale = ghostPosition[currentIndex].rotation;
+                    //transform.eulerAngles = rotationVal[indexVal];
+                }
+                else if(maxIndexVal <= currentIndex)
+                {
+                    if (gameObject.tag == "GhostPlayer")
+                    {
+                        if (gameObject.GetComponentInChildren<GhostContoller>().already_died)
+                        {
+                            gameObject.GetComponentInChildren<GhostContoller>().Saved();
+                        }
+
+                    }
+                    else
+                    {
+                        if (anim != null)
+                        {
+                            //anim.SetBool("stop", true);
+                        }
                     }
                 }
-                transform.position = ghostPosition[currentIndex].position;
-                transform.localScale = ghostPosition[currentIndex].rotation;
-                //transform.eulerAngles = rotationVal[indexVal];
-                currentIndex++;
             }
-            else
-            {
-                if (gameObject.tag == "GhostPlayer")
-                {
-                    gameObject.GetComponentInChildren<GhostContoller>().Saved();
 
-                }
-            }
-            playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,true));
+            playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,true,false));
 //            positionVal.Add (transform.position);
 //            rotationVal.Add (transform.localScale);
 //
             //timeController.addPlayerMovement(gameObject,positionVal);
-
+            currentIndex++;
             //increase the index every frame
             indexVal++;
 
@@ -158,6 +178,10 @@ public class RewindThis : MonoBehaviour
         }
         else
         {
+            if (gameObject.tag == "EnemyBullet")
+            {
+                Destroy(gameObject);
+            }
             
             if (anim != null)
             {

@@ -13,7 +13,7 @@ public class PauseTime : MonoBehaviour {
     void Update () {
         if (Input.GetKeyDown(KeyCode.R)) 
         {
-            Pause ();
+            //Pause ();
         }
 
         if (Input.GetKey(KeyCode.E))
@@ -23,19 +23,19 @@ public class PauseTime : MonoBehaviour {
                 SpeedUp();
             }
             rewindcounter++;
-
+            Normal();
             //Time.timeScale = 1; 
         }
 
         if (Input.GetKeyUp(KeyCode.E))
         {
             rewindcounter = 0;
-            Time.timeScale = 0;
+            Pause();
         }
 
-        if (Time.timeScale == 0.1f && gameObject.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("player_dead"))
+        if (Time.timeScale == 0.2f && gameObject.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).IsName("player_dead"))
         {
-            Time.timeScale = 0;
+            Pause();
         }
     }
 

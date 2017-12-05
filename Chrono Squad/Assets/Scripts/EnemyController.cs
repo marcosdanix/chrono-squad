@@ -9,15 +9,16 @@ public class EnemyController : MonoBehaviour {
     public GameObject player;
     public GameObject projectile;
     Animator anim;
+    public bool dead = false;
 
     public static float HP = 100f;
     public static float HP_BAR_SIZE = 7.2f;
 
     public float hp;
-    bool dead = false;
+    //bool dead = false;
     float nextFire = 0;
     float fireRate = 0.1f;
-    float fireBreak = 2;
+    float fireBreak = 5;
     int counter = 0;
     int[] offsety = new int[11] {0,1,0,1,0,1,0,1,0,1,0};
 
@@ -58,12 +59,7 @@ public class EnemyController : MonoBehaviour {
             return;
         }
 
-        float distance = Vector2.Distance(transform.position, player.transform.position);
-        if (distance < 40)
-        {
-            MachineGun();
-        }
-        else if (shooting == true)
+        if (shooting == true)
         {
             MachineGun();
         }
@@ -90,14 +86,16 @@ public class EnemyController : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.E))
         {
-            
+            shooting = false;
+            counter = 0;
+            anim.SetBool("Shoot", false);
             return;
         }
         if (Input.GetKeyUp(KeyCode.E))
         {
 
         }
-        if (counter == 10)
+        if (counter == 5)
         {
             anim.SetBool("Shoot", false);
             fireBreak -= Time.deltaTime;
@@ -116,7 +114,6 @@ public class EnemyController : MonoBehaviour {
                 anim.SetBool("Shoot", true);
                 counter++;
                 nextFire = Time.time + fireRate;
-                Debug.Log("oi");
                 GameObject go = (GameObject)Instantiate(projectile, new Vector2(transform.position.x + offset.x, transform.position.y + offsety[counter]), Quaternion.identity); 
                 go.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * -1, velocity.y);
             }
@@ -127,15 +124,22 @@ public class EnemyController : MonoBehaviour {
         //Debug.Log(col.gameObject.tag);
         if (Input.GetKey(KeyCode.E))
         {
+        }
+        if (col.gameObject.tag == "Bullet")
+        {
+            Attacked(col.gameObject.GetComponent<BulletController>().power);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col){
+        if (Input.GetKey(KeyCode.E))
+        {
             if (col.gameObject.tag == "Bullet")
             {
                 Regen(col.GetComponent<BulletController>().power);
             }
             return;
         }
-        if (col.gameObject.tag == "Bullet")
-        {
-            Attacked(col.gameObject.GetComponent<BulletController>().power);
-        }
+
     }
 }

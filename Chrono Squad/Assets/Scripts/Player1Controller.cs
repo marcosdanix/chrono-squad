@@ -18,6 +18,7 @@ public class Player1Controller : MonoBehaviour {
     public float chargeTimer = 0f;
 
 	public bool grounded = false;
+    public bool dead = false;
 	private Animator anim;
 	private Rigidbody2D rb2d;
 
@@ -28,6 +29,7 @@ public class Player1Controller : MonoBehaviour {
     Vector2 current_dir= Vector2.zero;
     int rotation;
     public Quaternion rotation_vec = Quaternion.identity;
+
 
 	// Use this for initialization
 	void Start () {
@@ -190,12 +192,14 @@ public class Player1Controller : MonoBehaviour {
         if (Time.timeScale == 0) {
             return;
         }
-        anim.SetBool("dead", true);
+        dead = true;
+        anim.SetBool("dead", dead);
         gameObject.GetComponent<PauseTime>().SlowDown();
     }
 
     public void reviveTrigger(){
-        anim.SetBool("dead", false);
+        dead = false;
+        anim.SetBool("dead", dead);
         gameObject.GetComponent<PauseTime>().Normal();
     }
 

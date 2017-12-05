@@ -5,14 +5,21 @@ using UnityEngine;
 public class EnemyBulletController : MonoBehaviour {
 
     Rigidbody2D rb;
+    Vector3 init_position;
+    public bool dead = false;
 
     // Use this for initialization
     void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        init_position = gameObject.transform.position;
     }
 
     // Update is called once per frame
     void Update () {
+        if (Input.GetKey(KeyCode.E))
+        {
+
+        }
 
     }
 

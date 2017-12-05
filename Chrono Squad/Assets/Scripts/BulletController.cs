@@ -9,10 +9,13 @@ public class BulletController : MonoBehaviour {
     Animator anim;
     public float power=25f;
 
+    public bool dead = false;
+
 	// Use this for initialization
 	void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
         cc = gameObject.GetComponent<BoxCollider2D>();
+        anim = gameObject.GetComponentInChildren<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -21,7 +24,6 @@ public class BulletController : MonoBehaviour {
         {
             //cc.isTrigger = false;
             return;
-            //return;
         }
         else if(Input.GetKeyUp(KeyCode.E))
         {
@@ -33,13 +35,40 @@ public class BulletController : MonoBehaviour {
         if (Input.GetKey(KeyCode.E))
         {
             return;
-            //return;
         }
         if (col.gameObject.tag == "MainCamera")
         {
             rb.velocity = Vector2.zero;
+            anim.SetBool("stop", true);
             //gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
         }
 
+        if (col.gameObject.tag == "Enemy")
+        {
+            rb.velocity = Vector2.zero;
+            anim.SetBool("stop", true);
+            //col.gameObject.GetComponent<Player1Controller>().deathTrigger();
+        }
+
+    }
+
+    void OnTriggerExit2D(Collider2D col){
+        if(Input.GetKey(KeyCode.E)){
+            if (col.gameObject.tag == "MainCamera")
+            {
+                anim.SetBool("stop", false);
+                //gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
+            }
+
+            if (col.gameObject.tag == "Enemy")
+            {
+                anim.SetBool("stop", false);
+                //col.gameObject.GetComponent<Player1Controller>().deathTrigger();
+            }
+        }
+    }
+
+    public void setStop(){
+        anim.SetBool("stop", true);
     }
 }

@@ -51,7 +51,7 @@ public class ChronoBreak : MonoBehaviour
             
             if (Input.GetKeyUp(KeyCode.E))
             {
-
+                
             }
 
             if (Input.GetKeyDown(KeyCode.R))
@@ -73,7 +73,7 @@ public class ChronoBreak : MonoBehaviour
             if (Time.timeScale == 0) {
                 return;
             }
-            playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,playerController.grounded));
+            playerPosition.Insert(0, new PointInTime(transform.position,transform.localScale,playerController.grounded,playerController.dead));
 
 
 //            positionVal.Add (transform.position);

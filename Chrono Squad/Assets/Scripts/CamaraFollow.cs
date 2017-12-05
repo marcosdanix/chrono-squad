@@ -23,5 +23,20 @@ public class CamaraFollow : MonoBehaviour {
         //float posY = Mathf.SmoothDamp(transform.position.y, player.transform.position.y, ref velocity.y, smoothTimeY);
     
         transform.position = new Vector3(posX+offset.x,0, transform.position.z);
-    }   
+    }  
+
+    void OnTriggerEnter2D(Collider2D col){
+        if (Input.GetKey(KeyCode.E))
+        {
+            if (col.gameObject.tag == "Bullet")
+            {
+
+            }
+            return;
+        }
+        if (col.gameObject.tag == "Bullet")
+        {
+            col.gameObject.GetComponent<BulletController>().setStop();   
+        }
+    }     
 }

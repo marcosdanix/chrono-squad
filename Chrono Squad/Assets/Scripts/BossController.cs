@@ -9,6 +9,8 @@ public class BossController : MonoBehaviour {
     public static float LASER_TIMER = 10;
     public static float LASER_DURATION = 0.6f;
 
+    public bool dead = false;
+
     float laser_on = 0f;
     float hp;
     float laser_timer;
