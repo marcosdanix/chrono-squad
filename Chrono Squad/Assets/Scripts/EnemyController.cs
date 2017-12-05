@@ -9,38 +9,51 @@ public class EnemyController : MonoBehaviour {
     public GameObject projectile;
     Animator anim;
     public float hp = 100f;
-    bool dead = false;
+    
     float nextFire = 0;
     float fireRate = 0.1f;
     float fireBreak = 2;
+    float awakeBreak = 3.5f;
+    float deathBreak = 3.5f;
+
     int counter = 0;
     int[] offsety = new int[11] {0,1,0,1,0,1,0,1,0,1,0};
 
     public Vector2 velocity;
     public Vector2 offset;
+
+    public bool dead = false;
     public bool shooting = false;
+    public bool awake = false;
+    public int teste = 0;
 
 
 	// Use this for initialization
 	void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        anim = gameObject.GetComponentInChildren<Animator>();
-	}
+        anim = GetComponentInChildren<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if (hp <= 0)
         {
             dead = true;
-            //anim.SetBool("Dead", true);
-            Destroy(gameObject);
-        }	
+            anim.SetBool("Dead", true);
+            Die(); 
+        }
         float distance = Vector2.Distance(transform.position, player.transform.position);
-        if (distance < 40)
+
+        if (distance < 60 && !awake)
+        {
+            anim.SetBool("Awake", true);
+            Awake();
+        }
+        if (distance < 40 && awake)
         {
             MachineGun();
         }
-        else if (shooting == true)
+        else if (shooting == true && awake)
         {
             MachineGun();
         }
@@ -49,6 +62,32 @@ public class EnemyController : MonoBehaviour {
     public void Attacked(float damage){
         hp -= damage;
     }
+
+
+    public void Awake()
+    {
+       if(awakeBreak > 0)
+       {
+           awakeBreak -= Time.deltaTime;     
+       }
+       else
+       {
+           awake = true;
+       }
+    }
+
+    public void Die()
+    {
+        if (deathBreak > 0)
+        {
+            deathBreak -= Time.deltaTime;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
 
     public void MachineGun()
     {
