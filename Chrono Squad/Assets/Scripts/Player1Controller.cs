@@ -18,7 +18,8 @@ public class Player1Controller : MonoBehaviour {
     public float chargeTimer = 0f;
 
 	public bool grounded = false;
-	private Animator anim;
+    public bool dead = false;
+    private Animator anim;
 	private Rigidbody2D rb2d;
 
     //shoot
@@ -39,7 +40,12 @@ public class Player1Controller : MonoBehaviour {
 
     void Update ()
     {
-        offset = new Vector2(1.0f,1.0f);
+        //if (Time.timeScale == 0)
+        //{
+        //     return;
+        // }
+
+            offset = new Vector2(1.0f,1.0f);
         current_dir = Vector2.zero;
 
         if (Input.GetKey (KeyCode.E)) {
@@ -181,7 +187,34 @@ public class Player1Controller : MonoBehaviour {
 
     }
 
+    public void DoubleUp()
+    {
+
+    }
+
     public void deathTrigger(){
-        
+        if (Time.timeScale == 0)
+        {
+            return;
+        }
+        dead = true;
+        anim.SetBool("dead", dead);
+        //gameObject.GetComponent<PauseTime>().SlowDown();
+    }
+
+    public void reviveTrigger()
+    {
+        dead = false;
+        anim.SetBool("dead", dead);
+        //gameObject.GetComponent<PauseTime>().Normal();
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        //Debug.Log(col.gameObject.tag);
+        if (col.gameObject.tag == "EnemyBullet")
+        {
+            deathTrigger();
+        }
     }
 }
