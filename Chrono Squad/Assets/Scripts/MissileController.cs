@@ -34,6 +34,7 @@ public class MissileController : MonoBehaviour {
         spriteRenderers[0].enabled = false;
         animators[1].SetBool("Explode", true);
         destroy = true;
+        gameObject.layer = 0;
     }
 
     public void Destroy()

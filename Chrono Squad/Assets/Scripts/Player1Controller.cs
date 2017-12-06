@@ -33,7 +33,9 @@ public class Player1Controller : MonoBehaviour {
 	void Start () {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-	}
+        Physics2D.IgnoreLayerCollision(0, 9);
+        Physics2D.IgnoreLayerCollision(9, 9);
+    }
 
     void Update ()
     {
