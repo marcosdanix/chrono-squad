@@ -18,9 +18,9 @@ public class MissileSpawner : MonoBehaviour
     void Update()
     {
         counter++;
-        if (counter == 8)
+        if (counter == 90)
         {
-            Vector3 position = new Vector3(Random.Range(-MainCamera.transform.position.x, MainCamera.transform.position.x), 8, 0);
+            Vector3 position = new Vector3(Random.Range(MainCamera.transform.position.x - 16, MainCamera.transform.position.x + 16), 8, 0);
             Instantiate(Prefab, position, Quaternion.identity);
             counter = 0;
         }
