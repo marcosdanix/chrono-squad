@@ -211,5 +211,9 @@ public class Player1Controller : MonoBehaviour {
         {
             deathTrigger();
         }
+        else if (col.gameObject.tag == "Enemy_Missile")
+        {
+            deathTrigger();
+        }
     }
 }
