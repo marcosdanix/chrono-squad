@@ -58,6 +58,7 @@ public class PauseTime : MonoBehaviour {
     }
 
     public void Normal(){
+        paused = false;
         Time.timeScale = 1;
     }
 
