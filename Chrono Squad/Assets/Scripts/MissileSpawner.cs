@@ -18,7 +18,7 @@ public class MissileSpawner : MonoBehaviour
     void Update()
     {
         counter++;
-        if (counter == 220)
+        if (counter == 500)
         {
             Vector3 position = new Vector3(Random.Range(MainCamera.transform.position.x - 16, MainCamera.transform.position.x + 16), 22, 0);
             Instantiate(Prefab, position, Quaternion.identity);

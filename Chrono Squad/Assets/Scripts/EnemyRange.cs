@@ -17,14 +17,14 @@ public class EnemyRange : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D col){
         if (col.gameObject.tag == "Player" || col.gameObject.tag == "GhostPlayer")
         {
-            gameObject.GetComponentInParent<EnemyController>().MachineGun();
+            gameObject.GetComponentInParent<EnemyController>().Attack();
         }
     }
 
     void OnTriggerStay2D(Collider2D col){
         if (col.gameObject.tag == "Player" || col.gameObject.tag == "GhostPlayer")
         {
-            gameObject.GetComponentInParent<EnemyController>().MachineGun();
+            gameObject.GetComponentInParent<EnemyController>().Attack();
         }
     }
 }

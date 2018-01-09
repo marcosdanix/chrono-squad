@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class EnemyController : MonoBehaviour {
+public class GreenSoldierController : MonoBehaviour
+{
 
     Rigidbody2D rb;
     public GameObject player;
@@ -11,7 +12,7 @@ public class EnemyController : MonoBehaviour {
     Animator anim;
     public bool dead = false;
 
-    public static float HP = 100f;
+    public static float HP = 20f;
     public static float HP_BAR_SIZE = 7.2f;
 
     public float hp;
@@ -20,27 +21,30 @@ public class EnemyController : MonoBehaviour {
     float fireRate = 0.1f;
     float fireBreak = 5;
     int counter = 0;
-    int[] offsety = new int[11] {0,1,0,1,0,1,0,1,0,1,0};
+    int[] offsety = new int[11] { 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0 };
 
     public Vector2 velocity;
     public Vector2 offset;
-    public bool shooting = false;
+    public bool throwGrenade = false;
+    public bool inRange = false;
 
     float hp_dif;
     float hpbar_x;
 
-    [Header ("Unity Stuff")]
+    [Header("Unity Stuff")]
     public Image hpBar;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         hp = HP;
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponentInChildren<Animator>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (hp <= 0)
         {
             dead = true;
@@ -58,20 +62,21 @@ public class EnemyController : MonoBehaviour {
             Attack();
             return;
         }
-
-        if (shooting == true)
+        if (throwGrenade == true)
         {
             Attack();
         }
-	}
+    }
 
-    public void Attacked(float damage){
+    public void Attacked(float damage)
+    {
         hp -= damage;
         Debug.Log(hp);
         hpBar.fillAmount = hp / HP;
     }
 
-    public void Regen(float damage){
+    public void Regen(float damage)
+    {
         hp += damage;
         Debug.Log(hp);
         hpBar.fillAmount = hp / HP;
@@ -86,41 +91,40 @@ public class EnemyController : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.E))
         {
-            shooting = false;
+            throwGrenade = false;
             counter = 0;
-            anim.SetBool("Shoot", false);
+            anim.SetBool("Throw", false);
+            anim.SetBool("InRange", false);
             return;
         }
         if (Input.GetKeyUp(KeyCode.E))
         {
 
         }
-        if (counter == 5)
+        if (counter == 1)
         {
-            anim.SetBool("Shoot", false);
+            anim.SetBool("Throw", false);
+            //anim.SetBool("InRange", false);
             fireBreak -= Time.deltaTime;
             if (fireBreak <= 0)
             {
                 counter = 0;
-                fireBreak = 2;
-                shooting = false;
+                fireBreak = 3;
+                throwGrenade = true;
             }
         }
         else
         {
-            shooting = true;
-            if (Time.time > nextFire)
-            {
-                anim.SetBool("Shoot", true);
-                counter++;
-                nextFire = Time.time + fireRate;
-                GameObject go = (GameObject)Instantiate(projectile, new Vector2(transform.position.x + offset.x, transform.position.y + offsety[counter]), Quaternion.identity); 
-                go.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * -1, velocity.y);
-            }
+            anim.SetBool("Throw", true);
+            counter = 1;
+            GameObject go = (GameObject)Instantiate(projectile, new Vector2(transform.position.x + offset.x, transform.position.y + offsety[counter]), Quaternion.identity);
+            go.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * -1, velocity.y);
+
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col){
+    void OnTriggerEnter2D(Collider2D col)
+    {
         //Debug.Log(col.gameObject.tag);
         if (Input.GetKey(KeyCode.E))
         {
@@ -131,7 +135,8 @@ public class EnemyController : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit2D(Collider2D col){
+    void OnTriggerExit2D(Collider2D col)
+    {
         if (Input.GetKey(KeyCode.E))
         {
             if (col.gameObject.tag == "Bullet")
@@ -141,5 +146,16 @@ public class EnemyController : MonoBehaviour {
             return;
         }
 
+    }
+
+    public void PrepareThrow() //currently throws grenade everytime he is in range
+    {
+        throwGrenade = true;
+        anim.SetBool("InRange", true);
+    }
+
+    public void OutOfRange()
+    {
+        anim.SetBool("InRange", false);
     }
 }
