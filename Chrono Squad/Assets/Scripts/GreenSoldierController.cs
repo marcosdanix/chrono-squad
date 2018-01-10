@@ -117,8 +117,8 @@ public class GreenSoldierController : MonoBehaviour
         {
             anim.SetBool("Throw", true);
             counter = 1;
-            GameObject go = (GameObject)Instantiate(projectile, new Vector2(transform.position.x + offset.x, transform.position.y + offsety[counter]), Quaternion.identity);
-            go.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * -1, velocity.y);
+            GameObject grenade = (GameObject)Instantiate(projectile, new Vector2(transform.position.x + offset.x, transform.position.y + offset.y), Quaternion.identity);
+            grenade.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * -1, velocity.y);
 
         }
     }
@@ -156,6 +156,7 @@ public class GreenSoldierController : MonoBehaviour
 
     public void OutOfRange()
     {
+        throwGrenade = false;
         anim.SetBool("InRange", false);
     }
 }
