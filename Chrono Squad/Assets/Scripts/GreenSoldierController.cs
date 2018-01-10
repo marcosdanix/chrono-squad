@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,8 +26,13 @@ public class GreenSoldierController : MonoBehaviour
 
     public Vector2 velocity;
     public Vector2 offset;
+    Vector3 theScale;
     public bool throwGrenade = false;
     public bool inRange = false;
+    float directionFace;
+    float Speed = 5.0f;
+    //public SpriteRenderer spriteRenderer;
+    public SpriteRenderer[] spriteRenderers;
 
     float hp_dif;
     float hpbar_x;
@@ -40,11 +46,16 @@ public class GreenSoldierController : MonoBehaviour
         hp = HP;
         rb = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponentInChildren<Animator>();
+        //spriteRenderers = gameObject.GetComponentsInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        directionFace = player.transform.position.x - transform.position.x;
+
+
         if (hp <= 0)
         {
             dead = true;
@@ -65,6 +76,28 @@ public class GreenSoldierController : MonoBehaviour
         if (throwGrenade == true)
         {
             Attack();
+        }
+
+        if(!inRange) //move towards the player if not in range
+        {
+            
+            if (directionFace <= 0)
+            {
+                transform.Translate(Vector3.left * Time.deltaTime * Speed, Space.Self);
+                //spriteRenderers[0].flipX = true;
+                
+
+                //facingRight = !facingRight;
+               
+            }
+            else
+            {
+                transform.Translate(Vector3.right * Time.deltaTime * Speed, Space.Self);
+                //spriteRenderers[0].flipX = true;
+                theScale = transform.localScale;
+                theScale.x = -1;
+                transform.localScale = theScale;
+            }
         }
     }
 
@@ -118,8 +151,7 @@ public class GreenSoldierController : MonoBehaviour
             anim.SetBool("Throw", true);
             counter = 1;
             GameObject grenade = (GameObject)Instantiate(projectile, new Vector2(transform.position.x + offset.x, transform.position.y + offset.y), Quaternion.identity);
-            grenade.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * -1, velocity.y);
-
+            grenade.GetComponent<Rigidbody2D>().velocity = new Vector2(velocity.x * Math.Sign(directionFace), velocity.y);
         }
     }
 
@@ -152,11 +184,13 @@ public class GreenSoldierController : MonoBehaviour
     {
         throwGrenade = true;
         anim.SetBool("InRange", true);
+        inRange = true;
     }
 
     public void OutOfRange()
     {
         throwGrenade = false;
         anim.SetBool("InRange", false);
+        inRange = false;
     }
 }
