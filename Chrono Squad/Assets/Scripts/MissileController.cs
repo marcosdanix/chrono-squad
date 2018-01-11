@@ -4,48 +4,63 @@ using UnityEngine;
 
 public class MissileController : MonoBehaviour {
 
-    public Animator[] animators;
-    public SpriteRenderer[] spriteRenderers;
-
-    float deathBreak = 1.5f;
-    public Vector2 velocity;
-    public Vector2 offset;
-    public bool destroy = false;
+    SpriteRenderer[] spriteRenderers;
+    Rigidbody2D rb;
+    public GameObject explosion;
+    bool rewindCheck = false;
+    bool startTimer = false;
+    int timeSinceExplosion = 0;
 
     // Use this for initialization
     void Start () {
         spriteRenderers = gameObject.GetComponentsInChildren<SpriteRenderer>();
-        animators = gameObject.GetComponentsInChildren<Animator>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (destroy)
+        
+
+        if (Input.GetKey(KeyCode.E))
         {
-            Destroy();
+            startTimer = false;
+            rewindCheck = true;
+            timeSinceExplosion--;
+            if(timeSinceExplosion <= 0)
+            {
+                spriteRenderers[0].enabled = true;
+                spriteRenderers[1].enabled = true;
+            }
+            
         }
-	}
 
+        if (Input.GetKeyDown(KeyCode.R) && rewindCheck)
+        {
+            if(timeSinceExplosion <= 0)
+            {
+                rewindCheck = false;
+                rb.velocity = Vector2.zero;
+                rb.simulated = true;
+            }
+            
+        }
 
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        //Debug.Log(col.gameObject.tag);
-             //if (col.gameObject.tag == "MainCamera")
-        spriteRenderers[0].enabled = false;
-        animators[1].SetBool("Explode", true);
-        destroy = true;
-        gameObject.layer = 0;
+        if (startTimer)
+        {
+            timeSinceExplosion++;
+        }
     }
 
-    public void Destroy()
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (deathBreak > 0)
+
+        if (col.gameObject.tag == "Ground")
         {
-            deathBreak -= Time.deltaTime;
-        }
-        else
-        {
-            Destroy(gameObject);
+            rb.simulated = false;
+            spriteRenderers[0].enabled = false;
+            spriteRenderers[1].enabled = false;
+            GameObject Explosion = (GameObject)Instantiate(explosion, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
+            startTimer = true;
         }
     }
 }
