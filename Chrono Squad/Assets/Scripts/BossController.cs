@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BossController : MonoBehaviour {
+    public GameObject missile;
+    public GameObject soldier;
 
-    public static float HP = 1000;
+    public static float HP = 3000;
     public static float HP_BAR_SIZE = 179;
     public static float LASER_TIMER = 10;
     public static float LASER_DURATION = 0.6f;
 
     public bool dead = false;
     public bool startCounters = false;
+    bool soldierSpawn = false;
+    bool missileSpawn = false;
+    Vector3 position;
 
     float laser_on = 0f;
     float hp;
@@ -67,7 +72,7 @@ public class BossController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.E))
+        /* if (Input.GetKey(KeyCode.E))
         {
             anim.SetFloat("rewind", -rewind);
             anim2.SetFloat("rewind", -rewind);
@@ -132,9 +137,8 @@ public class BossController : MonoBehaviour {
             {
                 laser_on= laser_on - Time.deltaTime ;
             }
-
-        }
-
+            
+        }*/
 
         if(Time.timeScale == 0){
             return;
@@ -146,6 +150,64 @@ public class BossController : MonoBehaviour {
             hpBar.GetComponent<RectTransform>().offsetMax = new Vector2(10.5f, -184f);
             Destroy(gameObject);
         }  
+    }
+
+    void FixedUpdate()
+    {
+
+        if (startCounters)
+        {
+            if (Input.GetKey(KeyCode.E))
+            {
+                if (laser_timer < LASER_TIMER)
+                {
+                    laser_timer += Time.deltaTime;
+                    anim.SetFloat("timer", laser_timer);
+                    anim2.SetFloat("timer", laser_timer);
+                    anim3.SetFloat("timer", laser_timer);
+                }
+            }         
+            else
+            {
+                if (laser_timer < 0)
+                {
+                    col.enabled = true;
+                    anim.SetFloat("timer", laser_timer);
+                    anim2.SetFloat("timer", laser_timer);
+                    anim3.SetFloat("timer", laser_timer);
+                }           
+                else if(laser_timer < 4 && !soldierSpawn)
+                {
+                    soldierSpawn = true;
+                    position = new Vector3(transform.position.x - 20, -9, transform.position.z);
+                    Instantiate(soldier, position, Quaternion.identity);
+
+                    position = new Vector3(transform.position.x + 20, -9, transform.position.z);
+                    Instantiate(soldier, position, Quaternion.identity);
+
+                }
+                else if (laser_timer < 8 && !missileSpawn)
+                {
+                    missileSpawn = true;
+                    position = new Vector3(transform.position.x-4, 20, transform.position.z);
+                    Instantiate(missile, position, Quaternion.identity);
+
+                    position = new Vector3(transform.position.x - 16, 20, transform.position.z);
+                    Instantiate(missile, position, Quaternion.identity);
+
+                    position = new Vector3(transform.position.x + 4, 20, transform.position.z);
+                    Instantiate(missile, position, Quaternion.identity);
+
+                    position = new Vector3(transform.position.x + 16, 20, transform.position.z);
+                    Instantiate(missile, position, Quaternion.identity);
+
+                }
+                else
+                {
+                    laser_timer -= Time.deltaTime;
+                }
+            }            
+        }
     }
 
     void Shoot_Laser(){

@@ -31,7 +31,6 @@ public class GreenSoldierController : MonoBehaviour
     public bool inRange = false;
     float directionFace;
     float Speed = 5.0f;
-    //public SpriteRenderer spriteRenderer;
     public SpriteRenderer[] spriteRenderers;
 
     float hp_dif;
