@@ -219,14 +219,17 @@ public class BossController : MonoBehaviour {
     public void Attacked(float damage){
         hp -= damage;
         hp_dif = 1 - (hp / HP);
-        Debug.Log(hp);
         hpBar.GetComponent<RectTransform>().offsetMax = new Vector2(10.5f, -5 - (HP_BAR_SIZE*hp_dif));
     }
 
     public void Regen(float damage){
-        hp += damage;
-        hp_dif = 1 - (hp / HP);
-        Debug.Log(hp);
-        hpBar.GetComponent<RectTransform>().offsetMax = new Vector2(10.5f, -5 - (HP_BAR_SIZE*hp_dif));
+        if(hp < HP)
+        {
+            hp += damage;
+            hp_dif = 1 - (hp / HP);
+            Debug.Log(hp);
+            hpBar.GetComponent<RectTransform>().offsetMax = new Vector2(10.5f, -5 - (HP_BAR_SIZE * hp_dif));
+        }
+       
     }
 }

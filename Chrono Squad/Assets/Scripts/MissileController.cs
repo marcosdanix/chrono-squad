@@ -16,9 +16,14 @@ public class MissileController : MonoBehaviour {
         spriteRenderers = gameObject.GetComponentsInChildren<SpriteRenderer>();
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    private void Update()
+    {
+        
+    }
+
+    void FixedUpdate () {
         
 
         if (Input.GetKey(KeyCode.E))

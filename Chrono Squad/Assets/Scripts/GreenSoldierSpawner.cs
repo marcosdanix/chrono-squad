@@ -21,7 +21,12 @@ public class GreenSoldierSpawner : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
+    {
+        
+    }
+
+    void FixedUpdate()
     {
 
         //Check if rewind is activated to stop spawning missiles

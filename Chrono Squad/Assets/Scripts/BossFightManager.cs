@@ -25,9 +25,14 @@ public class BossFightManager : MonoBehaviour {
         playerCollider = player.GetComponent<Collider2D>();
         //missileSpawner = missileSpawner;
 }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    private void Update()
+    {
+        
+    }
+
+    void FixedUpdate () {
 
         if (checkpoint.IsTouching(playerCollider) && !bossFightStarted)
         {

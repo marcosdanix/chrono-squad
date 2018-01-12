@@ -16,8 +16,13 @@ public class MissileSpawner : MonoBehaviour
     {
     }
 
+    private void Update()
+    {
+        
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         //Check if rewind is activated to stop spawning missiles

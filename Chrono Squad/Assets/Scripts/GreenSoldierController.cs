@@ -49,7 +49,12 @@ public class GreenSoldierController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
+    {
+        
+    }
+
+    void FixedUpdate()
     {
 
         directionFace = player.transform.position.x - transform.position.x;
@@ -103,7 +108,6 @@ public class GreenSoldierController : MonoBehaviour
     public void Attacked(float damage)
     {
         hp -= damage;
-        Debug.Log(hp);
         hpBar.fillAmount = hp / HP;
     }
 
