@@ -10,6 +10,7 @@ public class BossController : MonoBehaviour {
     public static float LASER_DURATION = 0.6f;
 
     public bool dead = false;
+    public bool startCounters = false;
 
     float laser_on = 0f;
     float hp;
@@ -27,6 +28,7 @@ public class BossController : MonoBehaviour {
     float hpbar_x;
 
     public GameObject hpBar;
+    public GameObject soundController; //access to soundController so it can play the victory tune
     BoxCollider2D col;
     float rewind=1.0f;
 	// Use this for initialization
@@ -76,11 +78,11 @@ public class BossController : MonoBehaviour {
             anim7.SetFloat("rewind", -rewind);
             anim8.SetFloat("rewind", -rewind);
 
-            if (laser_on < LASER_DURATION)
+            if (laser_on < LASER_DURATION && startCounters)
             {
                 laser_on += Time.deltaTime;
             }
-            else
+            else if (startCounters)
             {
                 anim.SetFloat("timer", laser_timer);
                 anim2.SetFloat("timer", laser_timer);
@@ -107,17 +109,17 @@ public class BossController : MonoBehaviour {
 
             }
 
-            if (laser_timer < 0)
+            if (laser_timer < 0 && startCounters)
             {
                 col.enabled = true;
                 anim.SetFloat("timer", laser_timer);
                 anim2.SetFloat("timer", laser_timer);
                 anim3.SetFloat("timer", laser_timer);
-                laser_timer = LASER_TIMER;
+                laser_timer = LASER_TIMER; //Don't restart, the fight should end in less than 10 seconds
                 laser_on = LASER_DURATION;
                 Shoot_Laser();
             }
-            else if (laser_on < 0)
+            else if (laser_on < 0 && startCounters)
             {
                 col.enabled = false;
                 anim.SetFloat("timer", laser_timer);
@@ -126,7 +128,7 @@ public class BossController : MonoBehaviour {
                 laser_timer = laser_timer - Time.deltaTime;
 
             }
-            else
+            else if (startCounters)
             {
                 laser_on= laser_on - Time.deltaTime ;
             }
@@ -140,8 +142,7 @@ public class BossController : MonoBehaviour {
 
         if (hp <= 0)
         {
-            //dead = true;
-            //anim.SetBool("Dead", true);
+            soundController.GetComponent<SoundManager>().bossDead = true;
             hpBar.GetComponent<RectTransform>().offsetMax = new Vector2(10.5f, -184f);
             Destroy(gameObject);
         }  

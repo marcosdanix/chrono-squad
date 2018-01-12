@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissileSpawner : MonoBehaviour
+public class GreenSoldierSpawner : MonoBehaviour
 {
 
     public GameObject MainCamera;
@@ -10,6 +10,10 @@ public class MissileSpawner : MonoBehaviour
     int counter;
     bool rewindCheck = false;
     public bool spawnEnabled = true;
+    int randomNumber;
+    Vector3[] positions = new Vector3[2] { Vector3.zero, Vector3.zero };
+    Vector3 position;
+    
 
     // Use this for initialization
     void Start()
@@ -34,13 +38,16 @@ public class MissileSpawner : MonoBehaviour
         if (!rewindCheck && spawnEnabled)
         {
             counter++;
-            if (counter == 300) //Spawn every 300 frames = 5 seconds
+            if (counter == 240) //Spawn every 300 frames = 4 seconds
             {
-                Vector3 position = new Vector3(Random.Range(MainCamera.transform.position.x - 16, MainCamera.transform.position.x + 16), 22, 0); //Spawn inside the current camera area
+                positions[0] = new Vector3((MainCamera.transform.position.x - 30), -9, 0); //Spawn outside the current camera area
+                positions[1] = new Vector3((MainCamera.transform.position.x + 30), -9, 0);
+                randomNumber = Random.Range(0, 2);
+                position = positions[randomNumber];
                 Instantiate(Prefab, position, Quaternion.identity);
                 counter = 0;
             }
         }
-        
+
     }
 }

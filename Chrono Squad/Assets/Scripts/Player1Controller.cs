@@ -16,9 +16,12 @@ public class Player1Controller : MonoBehaviour {
     public float lowJumpMultiplier = 2f;
 
     public float chargeTimer = 0f;
+    float bossFightInitialPosition = 388;
 
-	public bool grounded = false;
+    public bool bossFightStarted = false;
+    public bool grounded = false;
     public bool dead = false;
+    
 	private Animator anim;
 	private Rigidbody2D rb2d;
 
@@ -214,6 +217,12 @@ public class Player1Controller : MonoBehaviour {
         else if (col.gameObject.tag == "Enemy_Missile")
         {
             deathTrigger();
+        }
+        else if( (col.gameObject.tag == "MainCamera") && bossFightStarted) //stop the player from moving outside of the camera during boss battles
+        {
+            float leftBorder = bossFightInitialPosition - 25;
+            float rightBorder = bossFightInitialPosition + 25;
+            transform.position = (new Vector3 (Mathf.Clamp(transform.position.x, leftBorder, rightBorder), transform.position.y, transform.position.z));
         }
     }
 }

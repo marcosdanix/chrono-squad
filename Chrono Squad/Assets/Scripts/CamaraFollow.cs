@@ -8,6 +8,9 @@ public class CamaraFollow : MonoBehaviour {
 
     public float smoothTimeY;
     public float smoothTimeX;
+    float posX;
+    public bool bossFightInPosition = false;
+    float bossFightInitialPosition = 392;
     public Vector2 offset = new Vector2();
 
     public GameObject player;
@@ -19,11 +22,13 @@ public class CamaraFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        float posX = Mathf.SmoothDamp(transform.position.x, player.transform.position.x, ref velocity.x, smoothTimeX);
-        //float posY = Mathf.SmoothDamp(transform.position.y, player.transform.position.y, ref velocity.y, smoothTimeY);
-    
-        //transform.position = new Vector3(posX+offset.x,0, transform.position.z);
-        transform.position = new Vector3(posX, 0, transform.position.z);
+
+        if (!bossFightInPosition)
+        {
+            posX = Mathf.SmoothDamp(transform.position.x, player.transform.position.x, ref velocity.x, smoothTimeX);
+            transform.position = new Vector3(posX, 0, transform.position.z);
+        }
+        
     }  
 
     void OnTriggerEnter2D(Collider2D col){
