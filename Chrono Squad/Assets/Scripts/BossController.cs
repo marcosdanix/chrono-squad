@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BossController : MonoBehaviour {
     public GameObject missile;
     public GameObject soldier;
+    public GameObject hpBar;
+    public GameObject soundController; //access to soundController so it can play the victory tune
+    public GameObject bossFightManager;
 
     public static float HP = 3000;
     public static float HP_BAR_SIZE = 179;
@@ -32,8 +36,7 @@ public class BossController : MonoBehaviour {
     float hp_dif;
     float hpbar_x;
 
-    public GameObject hpBar;
-    public GameObject soundController; //access to soundController so it can play the victory tune
+    
     BoxCollider2D col;
     float rewind=1.0f;
 	// Use this for initialization
@@ -49,10 +52,8 @@ public class BossController : MonoBehaviour {
         col = gameObject.transform.Find("Laser_cont").GetComponent<BoxCollider2D>();
         col.enabled = false;
         anim2.SetFloat("timer", laser_timer);
-
         anim3 = gameObject.transform.Find("Boss Head").GetComponent<Animator>();
         anim3.SetFloat("timer", laser_timer);
-
         anim4 = gameObject.transform.Find("Boss Body").GetComponent<Animator>();
         anim5 = gameObject.transform.Find("Boss Right Arm").Find("Boss Right Arm").Find("Boss Right Arm Joint 2").GetComponent<Animator>();
         anim6 = gameObject.transform.Find("Boss Right Arm").Find("Boss Right Arm").Find("Boss Right Arm Joint 3").GetComponent<Animator>();
@@ -147,6 +148,7 @@ public class BossController : MonoBehaviour {
         if (hp <= 0)
         {
             soundController.GetComponent<SoundManager>().bossDead = true;
+            bossFightManager.GetComponent<BossFightManager>().bossDead = true;
             hpBar.GetComponent<RectTransform>().offsetMax = new Vector2(10.5f, -184f);
             Destroy(gameObject);
         }  

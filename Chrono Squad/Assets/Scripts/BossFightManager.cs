@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossFightManager : MonoBehaviour {
 
@@ -13,8 +14,10 @@ public class BossFightManager : MonoBehaviour {
 
     bool playerInPosition = false;
     bool bossFightStarted = false;
-    bool bossDead = false;
+    public bool bossDead = false;
+    bool reachedBossFightPosition = false;
     float bossFightInitialPosition = 388; //boss position
+    int endLevelCounter = 0;
 
     // Use this for initialization
     void Start () {
@@ -32,8 +35,9 @@ public class BossFightManager : MonoBehaviour {
             BossFightStart();
         }
 
-        if (player.transform.position.x >= bossFightInitialPosition)
+        if ((player.transform.position.x >= bossFightInitialPosition - 5) && !reachedBossFightPosition)
         {
+            reachedBossFightPosition = true;
             mainCamera.transform.position = new Vector3(bossFightInitialPosition, mainCamera.transform.position.y, mainCamera.transform.position.z);
             mainCamera.GetComponent<CamaraFollow>().bossFightInPosition = true; //stop following the player 
             boss.GetComponent<BossController>().startCounters = true; //start timers for boss attacks
@@ -41,7 +45,12 @@ public class BossFightManager : MonoBehaviour {
         }
         if (bossDead)
         {
-            LevelEnd();
+            endLevelCounter++;
+            if(endLevelCounter > 300) //5 seconds after boss death
+            {
+                LevelEnd();
+            }
+            
         }
     }
 
@@ -55,6 +64,6 @@ public class BossFightManager : MonoBehaviour {
 
     void LevelEnd()
     {
-
+        SceneManager.LoadScene("LevelSelect");
     }
 }
